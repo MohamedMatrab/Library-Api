@@ -1,6 +1,6 @@
 # 📚 **Books API**
 
-This API enables CRUD operations for managing books in a library. Built using **ASP.NET Core** and following **Onion Architecture**, it promotes clean, maintainable, and scalable code. 
+This API enables CRUD operations for managing books in a library. Built using **ASP.NET Core** and following **Onion Architecture**, it promotes clean, maintainable, and scalable code.
 
 ---
 
@@ -10,6 +10,7 @@ This API enables CRUD operations for managing books in a library. Built using **
 - ✏️ **Update Books:** Modify book details.
 - ❌ **Delete Books:** Remove books by ID.
 - 📖 **DTO Support:** Ensures structured data flow between layers.
+- 🧪 **Unit Tests:** Ensures code reliability with tests implemented using **xUnit** and **Moq**.
 
 ---
 
@@ -26,3 +27,26 @@ The API adopts **Onion Architecture** to separate concerns effectively. This app
    Handles persistence and external services using **Entity Framework Core**.
 4. **Presentation/API Layer**  
    Exposes API endpoints using **ASP.NET Controllers**.
+
+---
+
+## 🔧 **Technologies Used**
+- **ASP.NET Core** for building the API
+- **Entity Framework Core** for database access
+- **xUnit** and **Moq** for unit testing
+- **Onion Architecture** for clean code separation
+
+---
+
+## 🚀 **Getting Started**
+
+### Prerequisites
+- **.NET SDK** (Version 6.0 or higher)
+- **SQL Server** for database storage
+- **Visual Studio** or **VS Code** (recommended for development)
+
+### Steps to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/books-api.git
+   cd books-api
