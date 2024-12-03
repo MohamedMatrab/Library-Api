@@ -26,7 +26,3 @@ The API adopts **Onion Architecture** to separate concerns effectively. This app
    Handles persistence and external services using **Entity Framework Core**.
 4. **Presentation/API Layer**  
    Exposes API endpoints using **ASP.NET Controllers**.
-
----
-
-## 🗂️ **Folder Structure**
