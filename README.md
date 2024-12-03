@@ -48,5 +48,5 @@ The API adopts **Onion Architecture** to separate concerns effectively. This app
 ### Steps to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/books-api.git
-   cd books-api
+   git clone https://github.com/MohamedMatrab/Library-Api.git
+   cd Library-Api
